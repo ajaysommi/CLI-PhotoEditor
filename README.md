@@ -11,38 +11,38 @@ This program is a powerful and flexible image manipulator that allows users to a
 * **Add**: Adds a certain amount to a specific color channel. For example, the "addgreen" command would add an amount specified by the user to the green channel.
 * **Scale**: Similar to the add feature, scale multiplies a certain amount to a specific color channel. For example, the "scalegreen" command would multiply an amount specified by the user to the green channel.
 
-# Usage
+## Usage
 Run the tool from the command line by providing the desired commands and options. Here are some examples:
 
-### Multiply
+#### Multiply
 
     ./project2.out output firstimage multiply secondimage
 
-### Subtract
+#### Subtract
 
     ./project2.out output firstimage subtract secondimage
 
-### Overlay
+#### Overlay
 
     ./project2.out output firstimage overlay secondimage
 
-### Screen
+#### Screen
 
     ./project2.out output firstimage screen secondimage
 
-### Combine
+#### Combine
 
     ./project2.out output firstimage combine secondimage thirdimage
 
-### Flip
+#### Flip
 
     ./project2.out output firstimage flip
 
-### Add
+#### Add
 
     ./project2.out output firstimage add 200
 
-### Scale
+#### Scale
 
     ./project2.out output firstimage scale 3
 
